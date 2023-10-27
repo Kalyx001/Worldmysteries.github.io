@@ -1,0 +1,181 @@
+/* CSS Reset (Optional) */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6)10%, rgba(0, 0, 0, 0.6)10%), url(pics/cb0f200473c652ce550a770b43dadbd9.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: #905a92;
+    color: #ff96cb;
+    padding: 10px;
+    height: 150px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+}
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+ 
+}
+
+.menu li {
+  display: inline-flex;
+  position: relative;
+  text-align: center;
+  justify-content: center;
+}
+
+.menu li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+  transition: .3s;
+}
+.menu li a:hover{
+    color: orange;
+    letter-spacing: 1.5px;
+    border: 1px orange solid;
+    border-radius: 10px;
+}
+
+.menu li:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  width: 170px;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 20%;
+  background-color: #F2F2F2;
+  padding: 10px;
+  z-index: 1;
+  transition: .3s;
+}
+
+.dropdown-menu li {
+  display: block;
+  transition: .2s;
+}
+.dropdown-menu li:hover{
+    color: yellow;
+}
+
+.dropdown-menu li a {
+  padding: 5px;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #ddd;
+}
+
+
+
+span{
+  color: #a8ffd3;
+  font-size: 40px;
+}
+
+/* content styles*/
+
+main {
+    padding: 20px;
+    color: white;
+
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffc0c0;
+    
+}
+
+h2{
+  color: #eca8ff;
+}
+
+h3{
+  color: #93ea87;
+  border: 1px solid #a0a29f;
+  border-radius: 3px;
+  text-align: center;
+}
+
+main p {
+    margin-bottom: 10px;
+    text-align: center;
+    max-width: 1000px;
+    margin-top: px;
+}
+
+
+.gallery {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 3px;
+  align-items: flex-start;
+}
+
+.gallery img {
+  height: 400px;
+  object-fit: cover;
+  margin-right: 10px;
+  border-radius: 2px;
+  max-height: 50%;
+}
+
+.galery{
+  overflow-x: scroll;
+  color: white;
+  margin-bottom: 40px;
+}
+.galery ul{
+  overflow-x: scroll;
+  color: white;
+}
+.galery ul li{
+  width: auto;
+  height: 50%;
+}
+.galery ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+footer {
+    background-color: #ff96cb;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+/* Add additional styles for the sections and other elements as needed */
